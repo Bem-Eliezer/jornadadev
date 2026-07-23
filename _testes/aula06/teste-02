@@ -1,0 +1,14 @@
+FUNCTION Main()
+
+LOCAL aQualquerCoisa := {}
+LOCAL nI := 0
+
+
+FOR nI := 1 TO 2000
+    aAdd(aQualquerCoisa, hb_randomInt(1, 20000))
+NEXT
+
+QOuut(aDias [1])
+aDIas[7] := "Sabado"
+
+RETURN NIL
